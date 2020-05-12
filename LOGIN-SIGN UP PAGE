@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<title>
+  		ONLINE JUDICIARY
+  	</title>
+  </head>
+  <BODY>
+  	  <p><b> WELCOME EVERYONE </b></p>
+  	  <p><b> LOGIN </b></p>
+  	  <form>
+  <label for="username">Username:</label><br>
+  <input type="text" id="username" name="username"><br>
+  <label for="pwd">Password:</label><br>
+  <input type="password" id="pwd" name="pwd"><br>
+</form>
+  	  <br><input type="submit">
+  	  <br>
+      <p>Forgot password ?</p><input type="button" onclick="alert('')" value="Click Me!">
+
+  	  
+  	  <br><br><p><b><b> SIGN UP </b></b></p>
+  	  <form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value=""><br><br>
+  <form>
+  <label for="username">Email:</label><br>
+  <input type="text" id="EMAIL" name="EMAIL"><br>
+  <label for="pwd">Password:</label><br>
+  <input type="password" id="pwd" name="pwd">
+</form>
+  <p><b> GENDER :</b></p>
+  <form>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label><br>
+  <b><p><b> DOB :</b></p>
+  <input type="date" name=""><br>
+</form>
+  <br><input type="submit" value="Submit">
+  <input type="reset">
+
+</form>
+  	  <body style="background-color:powderblue;">
+
+
+
+  </BODY>
