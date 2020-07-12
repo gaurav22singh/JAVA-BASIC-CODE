@@ -1,0 +1,48 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package gradecalculation;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author GAURAV
+ */
+public class GradeCalculation {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {  
+        int n;
+        int total=0;
+        Scanner s = new Scanner(System.in);
+        System.out.println("enter the number of subject");
+        n=s.nextInt();
+        System.out.println("marks of subjects ");
+        int a[] = new int[n];
+        for(int i=0;i<n;i++){
+            if(a[i]<100){
+            a[i]=s.nextInt();
+            total=total+a[i];
+        }
+            else
+                break;
+        }
+        System.out.println("total marks ="+total);
+        int t;
+        t=100*n;
+        int g;
+        g=total*100/t;
+        System.out.println("percentage="+g);
+        
+        
+              
+    } 
+        
+    
+    
+}
